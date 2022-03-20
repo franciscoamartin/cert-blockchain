@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/client/node_modules
+/studio/node_modules
+/client/.pnp
+/client/.pnp.js
+/studio/.pnp
+/studio/.pnp.js
+
+# testing
+/client/coverage
+/studio/coverage
+
+# next.js
+/client/.next/
+/studio/.next/
+
+/client/out/
+/studio/out/
+
+# production
+/client/build
+/studio/build
+
+# misc
+/client/.DS_Store
+/studio/*.pem
+
+/client/.DS_Store
+/studio/*.pem
+
+# debug
+/studio/npm-debug.log*
+/studio/yarn-debug.log*
+/studio/yarn-error.log*
+
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+# local env files
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+
+/studio/.env.local
+/studio/.env.development.local
+/studio/.env.test.local
+/studio/.env.production.local
+
+# vercel
+/client/.vercel
+/studio/.vercel
+
+# typescript
+/client/*.tsbuildinfo
+/studio/*.tsbuildinfo
